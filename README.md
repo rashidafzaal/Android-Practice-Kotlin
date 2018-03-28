@@ -1,3 +1,3 @@
 # Android-Practice-Kotlin
 
-This Repositry includes different codes, which would assist individuals to leanrn **Kotlin**
+This Repositry includes different codes, which would assist individuals to learn **Kotlin**
