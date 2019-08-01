@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="20dp">
+
+        <TextView
+                android:id="@+id/row_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID ---"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"/>
+
+       <LinearLayout
+               android:layout_marginLeft="10dp"
+               android:layout_toRightOf="@+id/row_ID"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+           <TextView
+                   android:id="@+id/row_name"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Rashid --- "
+                   android:textColor="@color/colorPrimaryDark"
+                   />
+           <TextView
+                   android:id="@+id/row_gender"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Male --- "
+                   android:textColor="@color/colorPrimaryDark"
+                   />
+
+           <TextView
+                   android:id="@+id/row_designation"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Male --- "
+                   android:textColor="@color/colorPrimaryDark"
+                   />
+
+       </LinearLayout>
+
+        <TextView
+                android:id="@+id/row_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2010-2-00 --- "
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorAccent"
+                />
+
+    </RelativeLayout>
+
+</RelativeLayout>
